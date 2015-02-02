@@ -15,10 +15,10 @@ module.exports = function(grunt) {
         },
         options: {
           path: 'home',
-          host: '54.152.248.147',
-          username: 'ec2-user',
+          host: '',
+          username: '',
           password: '',
-          privateKey: grunt.file.read("myweb.pem"),
+          privateKey: grunt.file.read(""),
           srcBasePath: '/home'
         }
       }
